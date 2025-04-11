@@ -1,0 +1,37 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 17px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .foto-qr-code {
+    width: 100%;
+    border-radius: 09px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.texto {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 15px;
+    font-size: 18px;
+}
